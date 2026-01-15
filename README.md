@@ -76,20 +76,20 @@ Acesse [http://localhost:3000](http://localhost:3000)
 │   ├── lib/             # Utilitários
 │   └── types/           # Definições TypeScript
 ├── components.json      # Configuração shadcn/ui
-├── tailwind.config.ts   # Configuração Tailwind
+├── postcss.config.mjs   # Configuração PostCSS
 └── tsconfig.json        # Configuração TypeScript
 ```
 
 ## 📜 Scripts Disponíveis
 
-| Comando                  | Descrição                                       |
-| ------------------------ | ----------------------------------------------- |
-| `npm run dev`            | Inicia o servidor de desenvolvimento            |
-| `npm run build`          | Cria a build de produção                        |
-| `npm run start`          | Inicia o servidor de produção                   |
-| `npm run lint`           | Executa o ESLint                                |
-| `npm run lint:fix`       | Corrige problemas do ESLint automaticamente     |
-| `npm run update:deps`    | Atualiza todas as dependências para última versão |
+| Comando               | Descrição                                         |
+| --------------------- | ------------------------------------------------- |
+| `npm run dev`         | Inicia o servidor de desenvolvimento              |
+| `npm run build`       | Cria a build de produção                          |
+| `npm run start`       | Inicia o servidor de produção                     |
+| `npm run lint`        | Executa o ESLint                                  |
+| `npm run lint:fix`    | Corrige problemas do ESLint automaticamente       |
+| `npm run update:deps` | Atualiza todas as dependências para última versão |
 
 ## 🔐 Variáveis de Ambiente
 
